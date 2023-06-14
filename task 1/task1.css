@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.container{
+    border-style: solid;
+    margin: 50px;
+}
+
+.container .logo{   
+    border-style: hidden;
+    margin: 20px 0 20px;
+}
+
+.container span{
+    font-size: x-large;
+}
+
+.container strong{
+    color: rgb(43, 214, 214);
+    font-size: x-large;
+}
+
+p{
+    color: darkgray;
+    margin: 20px 0 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.container2{
+    margin: 50px;
+    border-style: solid;
+}
+
+.container2 .logoivt{
+    border: 2px solid #5ac6d0;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    line-height: 50px;
+    margin: 20px;
+}
+
+.container2 form input[type=email]{
+    width: 300px; 
+    height: 50px;  
+    padding: 10px;
+    
+}
+
+.container2 form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    background-color: #5ac6d0;
+    border: none;
+}
+
+.container3{
+    margin: 50px;
+    border-style: solid;
+    
+}
